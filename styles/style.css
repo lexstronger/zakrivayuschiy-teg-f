@@ -18,7 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font), monospace;
-  font-variation-settings: var(--min-font-weight);
+  font-variation-settings: 'wght' var(--min-font-weight) var(--max-font-weight);
   background-color: var(--bg-color);
   color: var(--accent-color);
   background-image: var(--bg-image);
@@ -28,7 +28,6 @@
   justify-content: center;
   background-attachment: fixed;
   flex-direction: column;
-  font-variation-settings: var(--min-font-weight);
 }
 
 .header {
